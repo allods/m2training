@@ -9,4 +9,13 @@
             </argument>
         </arguments>
     </type>
+    <type name="Magento\Catalog\Model\Product">
+        <plugin name="modifyProductPrice" type="Training\Test\Plugin\Catalog\Model\ProductPlugin" />
+    </type>
+    <type name="Magento\Theme\Block\Html\Footer">
+        <plugin name="modifyCopyright" type="Training\Test\Plugin\Theme\Block\Html\FooterPlugin" />
+    </type>
+    <type name="Magento\Theme\Block\Html\Breadcrumbs">
+        <plugin name="modifyBreadcrumbs" type="Training\Test\Plugin\Theme\Block\Html\BreadcrumbsPlugin" />
+    </type>
 </config>
