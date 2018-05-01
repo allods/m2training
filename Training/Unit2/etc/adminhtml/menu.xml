@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Training_Unit2::test" title="Test" module="Training_Unit2" sortOrder="10" resource="Training_Unit2::test"/>
+        <add id="Training_Unit2::action" title="Qwe" module="Training_Unit2" sortOrder="0" parent="Training_Unit2::test" action="test/action" resource="Training_Unit2::action"/>
+    </menu>
+</config>
