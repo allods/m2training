@@ -7,6 +7,7 @@ class Description
 {
     public function beforeToHtml(Subject $subject)
     {
+        $subject->setTemplate('Training_Unit3::description.phtml');
         $subject->getProduct()->setDescription('Test description!!!');
     }
 }
