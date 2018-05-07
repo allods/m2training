@@ -23,6 +23,10 @@ class Onepage extends Action
         $resultPage = $this->resultPageFactory->create();
         $resultPage->getConfig()->getTitle()->set('Test page title');
 
+        /** 3.8.6 */
+        $layout = $resultPage->getLayout();
+        $layout->unsetElement('test.render');
+
         return $resultPage;
     }
 }
