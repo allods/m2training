@@ -9,7 +9,16 @@
                 </arguments>
             </block>
         </referenceBlock>
-        <referenceContainer name="content.top">
+        <!-- <referenceContainer name="content.top">
+            <block class="Magento\Framework\View\Element\Template" name="test.render" template="Training_Render::render.phtml">
+                <arguments>
+                    <argument name="data" xsi:type="array">
+                        <item name="background_color" xsi:type="string">lightskyblue</item>
+                    </argument>
+                </arguments>
+            </block>
+        </referenceContainer> -->
+        <referenceContainer name="sidebar.additional">
             <block class="Magento\Framework\View\Element\Template" name="test.render" template="Training_Render::render.phtml">
                 <arguments>
                     <argument name="data" xsi:type="array">
